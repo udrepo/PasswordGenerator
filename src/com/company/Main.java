@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        generte();
-    }
-
-    static void generte(){
         Generator pg = new Generator();
         Scanner input = new Scanner(System.in);
 boolean done = false;
